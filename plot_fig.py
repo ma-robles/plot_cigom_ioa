@@ -107,7 +107,10 @@ def plot(filename, figname):
             }
     with open('config_plot.json','r') as ifile:
         data_cfg=json.load(ifile)
-    per=str(info['mes'])
+    if info['tipo']=='clim':
+        per='0'
+    elif info['tipo']=='mensual':
+        per=str(info['mes'])
     cfg=data_cfg[info['var']][per][str(info['depth'])][info['stat']]
     print('cmap:',cfg)
     title='Climatología '
