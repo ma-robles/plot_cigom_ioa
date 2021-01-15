@@ -44,43 +44,43 @@
     },
     "1": {
       "0": {
-        "promedios": {"cmap":"jet","vmin":20,"vmax":32},
+        "promedio": {"cmap":"jet","vmin":20,"vmax":32},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "50": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "100": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "250": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "400": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "600": {
-        "promedios": {"cmap":"jet","vmin":5,"vmax":12},
+        "promedio": {"cmap":"jet","vmin":5,"vmax":12},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "1000": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
@@ -88,43 +88,43 @@
     },
     "2": {
       "0": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "50": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "100": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "250": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "400": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "600": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "1000": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
@@ -132,43 +132,43 @@
     },
     "3": {
       "0": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "50": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "100": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "250": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "400": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "600": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "1000": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
@@ -176,43 +176,43 @@
     },
     "4": {
       "0": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "50": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "100": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "250": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "400": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "600": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "1000": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
@@ -220,43 +220,43 @@
     },
     "5": {
       "0": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "50": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "100": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "250": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "400": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "600": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "1000": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
@@ -264,43 +264,43 @@
     },
     "6": {
       "0": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "50": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "100": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "250": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "400": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "600": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "1000": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
@@ -308,43 +308,43 @@
     },
     "7": {
       "0": {
-        "promedios": {"cmap":"jet","vmin":20,"vmax":32},
+        "promedio": {"cmap":"jet","vmin":20,"vmax":32},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "50": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "100": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "250": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "400": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "600": {
-        "promedios": {"cmap":"jet","vmin":5,"vmax":12},
+        "promedio": {"cmap":"jet","vmin":5,"vmax":12},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "1000": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
@@ -352,43 +352,43 @@
     },
     "8": {
       "0": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "50": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "100": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "250": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "400": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "600": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "1000": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
@@ -396,43 +396,43 @@
     },
     "9": {
       "0": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "50": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "100": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "250": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "400": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "600": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "1000": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
@@ -440,43 +440,43 @@
     },
     "10": {
       "0": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "50": {
-        "promedios": {"cmap":"jet","vmin":22,"vmax":30},
+        "promedio": {"cmap":"jet","vmin":22,"vmax":30},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "100": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "250": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "400": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "600": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "1000": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
@@ -484,43 +484,43 @@
     },
     "11": {
       "0": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "50": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "100": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "250": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "400": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "600": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "1000": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
@@ -528,43 +528,43 @@
     },
     "12": {
       "0": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "50": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "100": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "250": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "400": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "600": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "1000": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
@@ -616,43 +616,43 @@
     },
     "1": {
       "0": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "50": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "100": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "250": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "400": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "600": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "1000": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
@@ -660,43 +660,43 @@
     },
     "2": {
       "0": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "50": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "100": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "250": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "400": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "600": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "1000": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
@@ -704,43 +704,43 @@
     },
     "3": {
       "0": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "50": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "100": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "250": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "400": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "600": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "1000": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
@@ -748,43 +748,43 @@
     },
     "4": {
       "0": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "50": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "100": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "250": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "400": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "600": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "1000": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
@@ -792,43 +792,43 @@
     },
     "5": {
       "0": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "50": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "100": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "250": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "400": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "600": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "1000": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
@@ -836,43 +836,43 @@
     },
     "6": {
       "0": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "50": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "100": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "250": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "400": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "600": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "1000": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
@@ -880,43 +880,43 @@
     },
     "7": {
       "0": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "50": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "100": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "250": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "400": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "600": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "1000": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
@@ -924,43 +924,43 @@
     },
     "8": {
       "0": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "50": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "100": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "250": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "400": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "600": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "1000": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
@@ -968,43 +968,43 @@
     },
     "9": {
       "0": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "50": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "100": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "250": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "400": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "600": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "1000": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
@@ -1012,43 +1012,43 @@
     },
     "10": {
       "0": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "50": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "100": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "250": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "400": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "600": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "1000": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
@@ -1056,43 +1056,43 @@
     },
     "11": {
       "0": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "50": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "100": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "250": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "400": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "600": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "1000": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
@@ -1100,43 +1100,43 @@
     },
     "12": {
       "0": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "50": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "100": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "250": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "400": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "600": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "1000": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
@@ -1188,43 +1188,43 @@
     },
     "1": {
       "0": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "50": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "100": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "250": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "400": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "600": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "1000": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
@@ -1232,43 +1232,43 @@
     },
     "2": {
       "0": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "50": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "100": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "250": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "400": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "600": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "1000": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
@@ -1276,43 +1276,43 @@
     },
     "3": {
       "0": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "50": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "100": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "250": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "400": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "600": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "1000": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
@@ -1320,43 +1320,43 @@
     },
     "4": {
       "0": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "50": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "100": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "250": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "400": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "600": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "1000": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
@@ -1364,43 +1364,43 @@
     },
     "5": {
       "0": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "50": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "100": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "250": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "400": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "600": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "1000": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
@@ -1408,43 +1408,43 @@
     },
     "6": {
       "0": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "50": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "100": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "250": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "400": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "600": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "1000": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
@@ -1452,43 +1452,43 @@
     },
     "7": {
       "0": {
-        "promedios": {"cmap":"jet","vmin":0,"vmax":1},
+        "promedio": {"cmap":"jet","vmin":0,"vmax":1},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "50": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "100": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "250": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "400": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "600": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "1000": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
@@ -1496,43 +1496,43 @@
     },
     "8": {
       "0": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "50": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "100": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "250": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "400": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "600": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "1000": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
@@ -1540,43 +1540,43 @@
     },
     "9": {
       "0": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "50": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "100": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "250": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "400": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "600": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "1000": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
@@ -1584,43 +1584,43 @@
     },
     "10": {
       "0": {
-        "promedios": {"cmap":"jet","vmin":0,"vmax":1},
+        "promedio": {"cmap":"jet","vmin":0,"vmax":1},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "50": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "100": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "250": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "400": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "600": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "1000": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
@@ -1628,43 +1628,43 @@
     },
     "11": {
       "0": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "50": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "100": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "250": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "400": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "600": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "1000": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
@@ -1672,43 +1672,43 @@
     },
     "12": {
       "0": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "50": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "100": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "250": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "400": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "600": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
       },
       "1000": {
-        "promedios": {},
+        "promedio": {},
         "maximos": {},
         "minimos": {},
         "desviacion-estandar": {}
@@ -1720,40 +1720,40 @@
       "media":{}
     },
     "1": {
-        "promedios": {"cmap":"jet","vmin":0,"vmax":110}
+        "promedio": {"cmap":"jet","vmin":0,"vmax":110}
     },
     "2": {
-        "promedios": {}
+        "promedio": {}
     },
     "3": {
-        "promedios": {}
+        "promedio": {}
     },
     "4": {
-        "promedios": {}
+        "promedio": {}
     },
     "5": {
-        "promedios": {}
+        "promedio": {}
     },
     "6": {
-        "promedios": {}
+        "promedio": {}
     },
     "7": {
-        "promedios": {"cmap":"jet","vmin":0,"vmax":50}
+        "promedio": {"cmap":"jet","vmin":0,"vmax":50}
     },
     "8": {
-        "promedios": {}
+        "promedio": {}
     },
     "9": {
-        "promedios": {}
+        "promedio": {}
     },
     "10": {
-        "promedios": {}
+        "promedio": {}
     },
     "11": {
-        "promedios": {}
+        "promedio": {}
     },
     "12": {
-        "promedios": {}
+        "promedio": {}
     }
   }
 }

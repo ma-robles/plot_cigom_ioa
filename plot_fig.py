@@ -31,7 +31,7 @@ def parse_name(figname):
                 "desviacion-estandar",
                 "maximos",
                 "minimos",
-                "promedios",
+                "promedio",
                 ] ,
             'estacion':["invierno",
                 "primavera",
@@ -85,7 +85,9 @@ def create_tree(struct_val):
 
 def plot(filename, figname):
     info=parse_name(figname)
+    print('info:',info)
     path=os.path.join(create_tree(info),figname)
+    print(path)
     var_names={
             "temperatura":"pot_temp",
             }
