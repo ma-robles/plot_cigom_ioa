@@ -83,27 +83,33 @@ def create_tree(struct_val):
     os.makedirs(path,exist_ok=True)
     return(path)
 
+def parse_units(units):
+    if units=="degC":
+        return "°C"
+
 def plot(filename, figname):
     info=parse_name(figname)
     print('info:',info)
+    if info==1:
+        print('***¡Sintaxis de nombre incorrecta!***')
     path=os.path.join(create_tree(info),figname)
     print(path)
     var_names={
             "temperatura":"pot_temp",
             }
     month={
-            1:'enero',
-            2:'febrero',
-            3:'marzo',
-            4:'abril',
-            5:'mayo',
-            6:'junio',
-            7:'julio',
-            8:'agosto',
-            9:'septiembre',
-            10:'octubre',
-            11:'noviembre',
-            12:'diciembre',
+            1:'Enero',
+            2:'Febrero',
+            3:'Marzo',
+            4:'Abril',
+            5:'Mayo',
+            6:'Junio',
+            7:'Julio',
+            8:'Agosto',
+            9:'Septiembre',
+            10:'Octubre',
+            11:'Noviembre',
+            12:'Diciembre',
             }
     with open('config_plot.json','r') as ifile:
         data_cfg=json.load(ifile)
@@ -113,14 +119,14 @@ def plot(filename, figname):
         per=str(info['mes'])
     cfg=data_cfg[info['var']][per][str(info['depth'])][info['stat']]
     print('cmap:',cfg)
-    title='Climatología '
+    title='Climatología'
     #if info['tipo']=='mensual':
     #    title+='de '+month[info['mes']]
     #elif info['tipo']=='estacional':
     #    title+='de '+info['estacion']
     title+=' de '+info['var']
     title+=' ('+info['stat']+')'
-    title+=' a '+str(info['depth'])+' m'
+    title+=' a '+str(info['depth'])+' m '
     with nc.Dataset(filename, 'r') as root:
         z=root.variables['Depth'][:]
         idepth=np.argwhere(z==info['depth'])[0][0]
@@ -130,7 +136,9 @@ def plot(filename, figname):
         var=root.variables[var_names[info['var']]][0][idepth]
         units=root.variables[var_names[info['var']]].units
 
+    units=parse_units(units)
     units='['+units+']'
+    title+=units
     print(title)
 
     ax, figure = map_pcolor(lon, lat, var,
