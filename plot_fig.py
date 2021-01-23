@@ -134,10 +134,11 @@ def plot(filename, figname):
     print(title)
     ax, figure = map_pcolor(lon, lat, var,
             title=title,
-            colorbar_label=units,
+            tickBins={ 'x' : [-98,-95,-92,-89,-86,-83,-80],
+                'y' :[20,22,24,26,28,30] },
             cmap=cfg['cmap'],
             plot_land=True, vmin=cfg['vmin'], vmax=cfg['vmax'])
-    figure.savefig(path, bbox_inches='tight', pad_inches=0.4,dpi=120)
+    figure.savefig(path, bbox_inches='tight', dpi=200)
 
 figname=sys.argv[1]
 ifilename=sys.argv[2]
