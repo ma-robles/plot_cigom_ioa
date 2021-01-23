@@ -116,8 +116,8 @@ def plot(filename, figname):
     title='Climatología '
     #if info['tipo']=='mensual':
     #    title+='de '+month[info['mes']]
-    elif info['tipo']=='estacional':
-        title+='de '+info['estacion']
+    #elif info['tipo']=='estacional':
+    #    title+='de '+info['estacion']
     title+=' de '+info['var']
     title+=' ('+info['stat']+')'
     title+=' a '+str(info['depth'])+' m'
