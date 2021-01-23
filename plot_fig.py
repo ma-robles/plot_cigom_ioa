@@ -114,8 +114,8 @@ def plot(filename, figname):
     cfg=data_cfg[info['var']][per][str(info['depth'])][info['stat']]
     print('cmap:',cfg)
     title='Climatología '
-    if info['tipo']=='mensual':
-        title+='de '+month[info['mes']]
+    #if info['tipo']=='mensual':
+    #    title+='de '+month[info['mes']]
     elif info['tipo']=='estacional':
         title+='de '+info['estacion']
     title+=' de '+info['var']
@@ -132,12 +132,15 @@ def plot(filename, figname):
 
     units='['+units+']'
     print(title)
+
     ax, figure = map_pcolor(lon, lat, var,
             title=title,
             tickBins={ 'x' : [-98,-95,-92,-89,-86,-83,-80],
                 'y' :[20,22,24,26,28,30] },
             cmap=cfg['cmap'],
             plot_land=True, vmin=cfg['vmin'], vmax=cfg['vmax'])
+    if info['tipo']=='mensual':
+        ax.annotate(month[info['mes']],xy=(0.02,0.94), xycoords='axes fraction')
     figure.savefig(path, bbox_inches='tight', dpi=200)
 
 figname=sys.argv[1]
