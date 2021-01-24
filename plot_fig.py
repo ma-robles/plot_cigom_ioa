@@ -92,10 +92,20 @@ def plot(filename, figname):
     print('info:',info)
     if info==1:
         print('***¡Sintaxis de nombre incorrecta!***')
+        exit(1)
     path=os.path.join(create_tree(info),figname)
     print(path)
+    #define names in netCDF file
     var_names={
+            "capa-mezcla":"CapaMezcla",
+            "nivel-mar":"ssh",
             "temperatura":"pot_temp",
+            "salinidad":"salinity",
+            #"corrientes-vectores", 
+            "velocidad":"speed", 
+            "nitratos":"", 
+            "carbono":"",
+            "clorofila":"",
             }
     month={
             1:'Enero',
