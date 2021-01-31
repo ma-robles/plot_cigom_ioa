@@ -60,9 +60,13 @@ def parse_name(figname):
             compo[cmp_struct[i]]=split_name[i]
         elif cmp_struct[i]=='depth': 
             val=split_name[i].split('m')
-            if len(val)!=2:
+            if len(val)!=2 and len(val)!=1:
                 return 1
-            compo[cmp_struct[i]]=int(val[0])
+            if len(val)==1:
+                compo[cmp_struct[i]]=int(-1)
+                split_name.append(split_name[-1])
+            else:
+                compo[cmp_struct[i]]=int(val[0])
         elif cmp_struct[i]=='mes':
             val=split_name[i].split('M')
             if len(val)!=2:
@@ -86,6 +90,8 @@ def create_tree(struct_val):
 def parse_units(units):
     if units=="degC":
         return "°C"
+    else:
+        return units
 
 def plot(filename, figname):
     info=parse_name(figname)
@@ -136,14 +142,29 @@ def plot(filename, figname):
     #    title+='de '+info['estacion']
     title+=' de '+info['var']
     title+=' ('+info['stat']+')'
-    title+=' a '+str(info['depth'])+' m '
+    if info['depth']!=-1:
+        title+=' a '+str(info['depth'])+' m '
+    no_depth= False
     with nc.Dataset(filename, 'r') as root:
-        z=root.variables['Depth'][:]
-        idepth=np.argwhere(z==info['depth'])[0][0]
-        lon=root.variables['Longitude'][:]
-        lat=root.variables['Latitude'][:]
+        try:
+            z=root.variables['Depth'][:]
+        except:
+            no_depth = True
+        if no_depth == False:
+            idepth=np.argwhere(z==info['depth'])[0][0]
+            var=root.variables[var_names[info['var']]][0][idepth]
+        else:
+            var=root.variables[var_names[info['var']]][0]
+        try:
+            lon=root.variables['Longitude'][:]
+        except:
+            lon=root.variables['longitude'][:]
+
+        try:
+            lat=root.variables['Latitude'][:]
+        except:
+            lat=root.variables['latitude'][:]
         #time=nc.num2date(root.variables['time'][:], root.variables['time'].units)
-        var=root.variables[var_names[info['var']]][0][idepth]
         units=root.variables[var_names[info['var']]].units
 
     units=parse_units(units)
@@ -153,8 +174,10 @@ def plot(filename, figname):
 
     ax, figure = map_pcolor(lon, lat, var,
             title=title,
-            tickBins={ 'x' : [-98,-95,-92,-89,-86,-83,-80],
-                'y' :[20,22,24,26,28,30] },
+            tickBins={
+                'x':[-98,-95,-92,-89,-86,-83,-80,-77],
+                'y':[18,20,22,24,26,28,30,32],
+                },
             cmap=cfg['cmap'],
             plot_land=True, vmin=cfg['vmin'], vmax=cfg['vmax'])
     if info['tipo']=='mensual':
