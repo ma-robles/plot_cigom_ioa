@@ -1,0 +1,2 @@
+[salinidad]
+  options= --tipo="clim"  --stat='desviacion-estandar'  --filename='../stdanual_hycom_salt.nc' --level=250  --var_alias='salinity' --cmap='jet' --vmin=0 --vmax=0.45 --lat='Latitude' --lon='Longitude' --depth='Depth' --modelo='HYCOM'

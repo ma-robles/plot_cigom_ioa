@@ -1,0 +1,2 @@
+[temperatura]
+  options= --tipo="clim"  --stat='media'  --filename='../climanual_hycom_temp.nc'  --level=0  --var_alias='pot_temp' --cmap='jet' --vmin=22 --vmax=29 --units='°C' --lat='Latitude' --lon='Longitude' --depth='Depth' --modelo='HYCOM'

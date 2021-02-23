@@ -1,0 +1,4 @@
+[temperatura]
+  options= --tipo="mensual"  --stat='promedio'  --filename='../climmensual_hycom_temp_07.nc'  --level=0 --mes=7 --var_alias='pot_temp' --cmap='jet' --vmin=20 --vmax=32 --units='°C' --lat='Latitude' --lon='Longitude' --depth='Depth' --modelo='HYCOM'
+[capa-mezcla]
+  options= --tipo="mensual"  --stat='promedio'  --filename='../capa_mezcla_01.nc'  --mes=1 --var_name_title='Capa de Mezcla' --var_alias='CapaMezcla' --cmap='jet' --vmin=0 --vmax=110 --modelo='HYCOM'

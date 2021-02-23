@@ -99,18 +99,6 @@ def parse_units(units):
 def plot(args):
     path=os.path.join(create_tree(args),args.figname)
     print(path)
-    #define names in netCDF file
-    var_names={
-            "capa-mezcla":"CapaMezcla",
-            "nivel-mar":"ssh",
-            "temperatura":"pot_temp",
-            "salinidad":"salinity",
-            #"corrientes-vectores", 
-            "velocidad":"speed", 
-            "nitratos":"", 
-            "carbono":"",
-            "clorofila":"",
-            }
     month={
             1:'Enero',
             2:'Febrero',
@@ -125,25 +113,33 @@ def plot(args):
             11:'Noviembre',
             12:'Diciembre',
             }
+    #TITLE
     title=args.stat
     title=title[0].upper()+title[1:]
     if args.stat=='media':
         title=''
+    elif args.stat=='desviacion-estandar':
+        title='Desviación estándar '
+        if args.tipo=='clim':
+            title+='de la '
     if args.tipo=='mensual':
         title+=' mensual de la '
     elif args.tipo=='clim':
         title+='Climatología (1992-2012) de la '
-    title+=args.var_name
-    if args.depth!=None:
-        title+=' a '+str(args.depth)+' m '
+    if args.var_name_title!=None:
+        title+=args.var_name_title
+    else:
+        title+=args.var_name
+    if args.level!=None:
+        title+=' a '+str(args.level)+' m '
     if args.var_alias!=None:
         var_name=args.var_alias
     else:
         var_name=args.var_name
     with nc.Dataset(args.filename, 'r') as root:
-        if args.depth!=None:
-            z=root.variables['Depth'][:]
-            idepth=np.argwhere(z==args.depth)[0][0]
+        if args.level!=None:
+            z=root.variables[args.depth][:]
+            idepth=np.argwhere(z==args.level)[0][0]
             var=root.variables[var_name][0][idepth]
         else:
             var=root.variables[var_name][0]
@@ -151,7 +147,7 @@ def plot(args):
         lat=root.variables[args.lat][:]
         #time=nc.num2date(root.variables['time'][:], root.variables['time'].units)
         if args.units==None:
-            units=root.variables[args.units].units
+            units=root.variables[var_name].units
         else:
             units=args.units
 
@@ -184,6 +180,7 @@ group.add_argument("--var_name", help="Nombre de la variable",
         choices=["capa-mezcla","nivel-mar", "temperatura", "salinidad", "viento",
         "nitratos","carbono","clorofila"],
         )
+parser.add_argument("--var_name_title", help="Nombre de la variable que se colocará en el título")
 parser.add_argument("--var_alias", help="Nombre de la variable en el archivo")
 parser.add_argument("--stat", help="Operación estadística aplicada",
         choices=["media","desviacion-estandar","maximos","minimos","promedio"],
@@ -192,7 +189,7 @@ parser.add_argument("--filename", help="Nombre del archivo")
 parser.add_argument("--ID", help="Clave del modelo",
         default="gom-unam-hycom-ioa-gom-phy-025",
         )
-parser.add_argument("--depth", type=int, help="Profundidad en m")
+parser.add_argument("--level", type=int, help="Profundidad en m")
 parser.add_argument("--mes", type=int, help="Número del mes")
 parser.add_argument("--root", help="Path de la carpeta raíz")
 parser.add_argument("--cmap", help="Paleta de la barra de colores")
@@ -205,25 +202,33 @@ parser.add_argument("--ycomp", help="Componente Y en variables vectoriales")
 parser.add_argument("--yfilename", help="Archivo con la componente Y")
 parser.add_argument("--lat", default="latitude", help="Nombre de la variable de latitud")
 parser.add_argument("--long", default="longitude",help="Nombre de la variable de longitud")
+parser.add_argument("--depth", default="depth",help="Nombre de la variable de profundidad")
 parser.add_argument("--units", help="Especifica unidades de la variable")
 parser.add_argument("--modelo", help="Especifica el modelo usado")
 group.add_argument('-i',"--input", help="Archivo(s) de entrada", dest='config_file')
 
 #parser.add_argument("--figname", help="Nombre de la figura")
 args=parser.parse_args()
-if args.config_file!=None:
+
+if args.config_file==None:
+    args_list=[args]
+else:
+    args_list=[]
     print('Reading:',args.config_file)
     file_parser=ConfigParser()
     file_parser.read(args.config_file)
+    print('Variables detectadas:', )
     for section_name in file_parser.sections():
-        print('  Variable:', section_name)
-        arg_list=shlex.split('--var_name='+section_name+' '+\
+        print('\t> ',section_name)
+        arg_line=shlex.split('--var_name='+section_name+' '+\
                 file_parser.get(section_name,'options'))
-        args=parser.parse_args(arg_list)
-figname='_'.join([args.ID,args.tipo,args.var_name,args.stat])
-if args.depth!=None:
-    figname+='_'+'{:04d}'.format(args.depth)+'m'
-if args.mes!=None:
-    figname+='_M'+'{:02d}'.format(args.mes)
-args.figname=figname
-plot(args)
+        args_list.append(parser.parse_args(arg_line))
+for args in args_list:
+    print('--> Graficando', args.var_name,'<--')
+    figname='_'.join([args.ID,args.tipo,args.var_name,args.stat])
+    if args.level!=None:
+        figname+='_'+'{:04d}'.format(args.level)+'m'
+    if args.mes!=None:
+        figname+='_M'+'{:02d}'.format(args.mes)
+    args.figname=figname
+    plot(args)
