@@ -2,14 +2,12 @@
 Generación de figuras para cigom usando como "núcleo" el script map_plots.py (https://gitlab.com/hmedrano/scripts-modelos-cigom/).
 De manera automática se genera la estructura(árbol) de almacenamiento requerido en la carpeta actual. 
 
-## Sintaxis
-plot_fig.py < nombre de la figura > < nombre del archivo .nc >
-  * Nombre de la figura es el nombre usando la nomenclatura solicitada. Si la nomenclatura es incorrecta, el script arrojará un error.
-  * Nombre del archivo .nc es el nombre (y ruta) del archivo de donde se obtendrán los datos para realizar las gráficas.
   
 ## Requerimientos
 * matplotlib, netCDF4, cartopy, xarray (Los mismos que requiera map_plots.py)
 
+## Sintaxis
+~~~
 usage: plot_fig.py [-h] [--tipo {clim,mensual,estacional}]
                    [--var_name {capa-mezcla,nivel-mar,temperatura,salinidad,viento,nitratos,carbono,clorofila}]
                    [--var_name_title VAR_NAME_TITLE] [--var_alias VAR_ALIAS]
@@ -55,7 +53,7 @@ optional arguments:
   --modelo MODELO       Especifica el modelo usado
   -i CONFIG_FILE, --input CONFIG_FILE
                         Archivo(s) de entrada
-
+~~~
 ## Ejemplos:
 
 python3 plot_fig.py -i mensual.inf
